@@ -1,16 +1,3 @@
 # stock
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Stock is a Flutter app that tracks inventories of businesses. It solves the problem of being unable to track stocks added or sold remotely from the business. Using the app, the owner is able to keep track and order in advance whenever something is out of stock or there's a low quantity of the stock.
