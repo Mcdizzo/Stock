@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+//import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../services/auth_service.dart';
 
@@ -72,7 +72,6 @@ class AuthController extends ChangeNotifier {
       await _authService.logout();
       Navigator.of(context).pushReplacementNamed('/');
     } catch (e) {
-      print(e);
       ScaffoldMessenger.of(
         context,
       ).showSnackBar(SnackBar(content: Text(e.toString())));
